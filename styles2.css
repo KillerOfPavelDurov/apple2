@@ -1,0 +1,250 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+
+.project {
+	display:grid;
+	
+	grid-template-columns:repeat(7,1fr);
+	
+	grid-auto-rows:minmax(80px,auto);
+}
+
+
+.navigation {
+	background-color:rgba(255,255,255,0.8);
+	grid-row:1/2;
+	
+	grid-column:1/8;
+
+}
+
+.pnavigation {
+	padding-top:20px;
+	padding-left:20px;
+	font-family: 'Poiret One', cursive;
+	font-size:60px;
+	color:#b34cd4;
+
+}
+
+
+
+@media screen and (max-width:1000px) {	
+
+
+
+  
+	
+ body {
+	background-image:url("pics/header10.jpg");
+	background-repeat:no-repeat;
+    background-size:190%;
+	background-position-x:55%;
+  }
+  
+.allboxes {
+	grid-column:2/7;
+	grid-row:7/20;
+	
+}
+
+.form {
+	
+}
+  
+  
+  
+  
+  
+  .form>label, .notifblock>label {
+	font-family: 'Poiret One', cursive;
+	font-size:73px;
+	color:white;
+	font-weight:bold;
+	text-align:none;
+	
+  }
+  
+  .notifblock {
+	  border:2px solid orange;
+	  margin-top:20px;
+	  margin-right:-50px;
+	  margin-left:-25px;
+	  padding-left:25px;
+	 border-radius:20px;
+  }
+  
+  
+  
+.text {
+	font-size:100px;
+	 border-radius:10px;
+	 outline:none;
+}
+
+.text3 {
+	margin-bottom:20px;
+}
+
+
+.notification {
+	color:orange;
+	font-size:40px;
+}
+  
+  .submit {
+      
+	 font-size:80px;
+     font-family: 'Montserrat Alternates', sans-serif;
+	 font-weight:bold;
+	 padding-bottom:10px;
+margin: 0 5% 0 5%;
+width: 90%;	  
+margin-top:40px;
+border:0;
+background-color:rgba(0,0,0,0.5);
+color:white;
+border-bottom:5px solid white;
+border-radius:20px;
+  }
+  
+  
+  .warning {
+	  animation-name:warning_anim;
+	  animation-duration:3s;
+	  animation-fill-mode:forwards;
+	  animation-timing-function:ease-out;
+	  grid-row:4/5;
+	  grid-column:1/8;
+	  background-color:rgba(0,252,42,0.7);
+	  opacity:0;
+	  
+  }
+  
+  .warning>p {
+	 font-family: 'Poiret One', cursive;
+	font-size:50px;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-top:10px;
+  }
+  
+  @keyframes warning_anim {
+
+      
+	  to {
+		  opacity:1;
+	  }
+	  
+	  
+  }
+  .jsdiv {
+	  display:none;
+	  grid-row:6/15;
+	  grid-column:1/8;
+	//  background-color:rgba(255,255,255,0.8);
+	  background-color:rgba(66,170,255,0.2);
+  }
+  
+  .linkcomments {
+	  display:none;
+	  position:absolute;
+	  bottom:0;
+	  width:100%;
+	  height:100px;
+	  background-color:white;
+	   background-color:rgba(255,255,255,0.8);
+	  text-align:center;
+	  padding-top:30px;
+  }
+  
+  .acomments {
+	  color:black;
+	
+	   font-family: 'Poiret One', cursive;
+	 font-weight:bold;
+	  font-size:50px;
+	  
+  }
+  
+  
+  .mainpage {
+	  display:none;
+	  grid-row:3/4;
+	  grid-column:3/6;
+	   text-align:center;
+	   background-color:rgba(255,255,255,0.8);
+	 //  background-color:white;
+	   border-radius:100px;
+  }
+  
+  
+  .amainpage {
+	 font-family: 'Poiret One', cursive;
+	 font-weight:bold;
+	 font-size:30px;
+	text-decoration:none;
+  }
+  
+  .home {
+	  height:50px;
+	  width:auto;
+	  margin-bottom:-10px;
+  }
+  
+  .jsp {
+	  color:white;
+	   font-family: 'Poiret One', cursive;
+	 font-weight:bold;
+	  font-size:30px;
+	  padding:10px;
+  }
+  
+  .price {
+	  background-color:orange;
+	  padding:10px;
+	  padding-top:0px;
+	  	  padding-bottom:5px;
+	  border-radius:10px;
+	 color:black;
+  }
+  
+  .qiwi {
+	  color:orange;
+	  
+  }
+  
+  
+  .number {
+	  background-color:orange;
+	  border-radius:10px;
+	  padding:10px;
+	  padding-top:0px;
+	  padding-bottom:5px;
+	  color:black;
+	  text-decoration:none;
+  }
+  
+  .cards {
+	  height:100px;
+	  width:auto;
+	 
+	 
+  }
+  
+  
+  .linkimg {
+	  height:25px;
+	  width:auto;
+	  margin-bottom:20px;
+	 margin-right:-20px;
+  }
+  
+  
+  
+  
+}
